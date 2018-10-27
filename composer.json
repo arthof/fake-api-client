@@ -1,0 +1,21 @@
+{
+    "name": "arthof/fake-api-client",
+    "description": "PHP Client for JSONPlaceholder API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artuf Hoffman",
+            "email": "arthof@wp.pl"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakeApiClient\\": "src/"
+        }
+    }
+}
